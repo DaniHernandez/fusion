@@ -1,0 +1,20 @@
+Queridos Socios... He cambiado los siguientes archivos...
+protected/config/main.php
+protected/views/layouts/main.php
+protected/views/site/contact.php
+protected/views/site/login.php
+protected/views/secciones/admin.php
+
+Vean principalmente el nombre de los divs (son las clases de bootstrap)
+Vean ademas la modificacion en el /config/main.php en la que se incluye a bootstrap como una extension
+Vean que he borrado todos los css y solo deje los de los complementos (que pronto se van tambien)
+Tengan en cuenta que falta descartar mucho javascript que ya no se usa, pero primero arreglamos y despues limpiamos.
+Ademas de bootstrap deberian ver en protected/extensions/ los complementos xupload (para subir fotos), 
+poll (para las encuestas) y falta agregar CKEditor (el editor de textos). 
+
+Aunque no lo parezca falta muy poquito y es trabajo en serie... Si no me creen comparen el 
+formulario de contacto (/protected/views/site/login.php) con el formulario de crear comentario (/protected/views/comentarios/_form.php) por ejemplo y van a ver que los cambios que hice no son WOW.
+
+Lo demas es todo arreglable. 
+
+Nos vemos!
